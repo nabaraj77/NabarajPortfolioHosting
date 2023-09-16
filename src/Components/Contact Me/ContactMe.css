@@ -2,6 +2,7 @@
   margin: auto;
   width: 80%;
   margin-bottom: 3rem;
+  box-sizing: border-box;
 }
 .contactMeHeading {
   padding: 5px;
