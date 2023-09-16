@@ -1,0 +1,43 @@
+* {
+  color: #ffffff;
+}
+
+.firstLetterFirstName,
+.firstLetterLastName {
+  color: orangered;
+  font-weight: bold;
+}
+.navbarWrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  z-index: 1;
+}
+.navContentContainer {
+  display: flex;
+}
+.logo {
+  border-radius: 100px;
+  margin-right: 3px;
+  border: 1px dotted orangered;
+}
+.logoFirstName {
+  display: flex;
+}
+.navbar {
+  margin: 0 1rem;
+}
+.logoFirstName {
+  margin-right: 5px;
+}
+@media screen and (max-width: 600px) {
+  .navContentContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .lastName {
+    margin-left: 35px;
+    margin-top: -8px;
+  }
+}

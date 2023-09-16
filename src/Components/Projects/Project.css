@@ -1,0 +1,42 @@
+.projectWrapper {
+  margin-bottom: 2rem;
+}
+.projectList {
+  margin: 0 2rem;
+}
+.card-text,
+.card-title {
+  color: #ffffff;
+}
+.image {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10px;
+  margin: auto;
+}
+.card {
+  margin-right: 1rem;
+  background-color: rgba(32, 31, 31, 0.4);
+  /* border: 1px solid white; */
+  box-shadow: 1px 1px #ffffff;
+  margin-bottom: 1rem;
+}
+.card:hover {
+  background-color: rgba(35, 206, 105, 0.7);
+}
+.projectList {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projectTitle {
+  text-align: center;
+  margin: 3rem 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.github {
+  color: #ffffff;
+  margin-left: 1rem;
+}

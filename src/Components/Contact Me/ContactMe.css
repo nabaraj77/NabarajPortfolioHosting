@@ -1,0 +1,54 @@
+.contactMe {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 3rem;
+  border: 1px dotted #ffffff;
+}
+.contactMeHeading {
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contactTwo {
+  margin-left: 4rem;
+  column-width: 30rem;
+}
+.imageContact {
+  width: 250px;
+  border-radius: 20px;
+  margin-left: 2rem;
+}
+.widthInput {
+  margin-bottom: 1rem;
+  border-radius: 13px;
+}
+textarea {
+  height: 120px;
+}
+
+.submitBtn {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .contactOne {
+    display: none;
+  }
+  .contactTwo {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contactTwo {
+    margin: auto;
+    column-width: 25rem;
+  }
+}
