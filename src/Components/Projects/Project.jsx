@@ -33,7 +33,7 @@ const Project = () => {
     <div className="projectWrapper">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 100 1340 150"
+        viewBox="10 100 1240 150"
         className="path"
       >
         <path
