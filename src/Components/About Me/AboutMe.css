@@ -36,8 +36,7 @@
 }
 .selfIntroSkills {
   padding: 3px;
-
-  width: 420px;
+  width: 70%;
 }
 
 @media screen and (max-width: 700px) {
